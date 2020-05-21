@@ -1,4 +1,4 @@
-package pattern.simplefactory.entity;
+package pattern.factory.entity;
 
 /**
  * @author jjj
