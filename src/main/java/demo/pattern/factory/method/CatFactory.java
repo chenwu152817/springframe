@@ -1,7 +1,7 @@
-package pattern.factory.method;
+package demo.pattern.factory.method;
 
-import pattern.factory.entity.Animal;
-import pattern.factory.entity.Cat;
+import demo.pattern.factory.entity.Animal;
+import demo.pattern.factory.entity.Cat;
 
 /**
  * @author jjj

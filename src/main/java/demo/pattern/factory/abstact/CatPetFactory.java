@@ -1,9 +1,9 @@
-package pattern.factory.abstact;
+package demo.pattern.factory.abstact;
 
-import pattern.factory.entity.Animal;
-import pattern.factory.entity.Cat;
-import pattern.factory.entity.CatFood;
-import pattern.factory.entity.Food;
+import demo.pattern.factory.entity.Animal;
+import demo.pattern.factory.entity.Cat;
+import demo.pattern.factory.entity.CatFood;
+import demo.pattern.factory.entity.Food;
 
 /**
  * @author jjj

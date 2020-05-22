@@ -1,8 +1,8 @@
-package pattern.factory.simple;
+package demo.pattern.factory.simple;
 
-import pattern.factory.entity.Animal;
-import pattern.factory.entity.Cat;
-import pattern.factory.entity.Dog;
+import demo.pattern.factory.entity.Animal;
+import demo.pattern.factory.entity.Cat;
+import demo.pattern.factory.entity.Dog;
 
 /**
  * @author jjj

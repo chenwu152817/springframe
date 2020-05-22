@@ -1,4 +1,4 @@
-package pattern.factory.entity;
+package demo.pattern.factory.entity;
 
 /**
  * @author jjj
