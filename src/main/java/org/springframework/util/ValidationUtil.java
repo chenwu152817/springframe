@@ -7,7 +7,7 @@ import java.util.Map;
  * @author jjj
  * @date 2020/5/24 15:17
  */
-public class VaildationUtil {
+public class ValidationUtil {
 
     public static boolean isEmpty(String obj) {
         return (obj == null || "".equals(obj));
