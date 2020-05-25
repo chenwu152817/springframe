@@ -1,7 +1,7 @@
 package org.springframework.core;
 
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @author jjj
