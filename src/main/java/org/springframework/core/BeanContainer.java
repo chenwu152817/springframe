@@ -3,6 +3,7 @@ package org.springframework.core;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.aop.annotation.Aspect;
 import org.springframework.core.annotation.Component;
 import org.springframework.core.annotation.Controller;
 import org.springframework.core.annotation.Repository;
@@ -34,7 +35,7 @@ public class BeanContainer {
     private final Map<Class<?>,Object> beanMap = new ConcurrentHashMap<Class<?>, Object>();
 
     private static final List<Class<? extends Annotation>> BEAN_ANNOTATION
-            = Arrays.asList(Component.class, Controller.class, Service.class, Repository.class);
+            = Arrays.asList(Component.class, Controller.class, Service.class, Repository.class, Aspect.class);
     public static BeanContainer getInstance(){
         return ContainerHolder.HOLDER.instance;
     }
